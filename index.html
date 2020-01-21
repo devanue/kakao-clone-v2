@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -25,7 +26,7 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header_-title">Chats</h1>
+        <h1 class="header__title">Chats</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -42,20 +43,26 @@
     <main class="chats">
       <ul class="chats__list">
         <li class="chats__chat chat">
-          <div class="chat__column">
-            <img class="chat__avatar g-avatar" src="images/iu.jpg" />
-            <div class="chat__content">
-              <span class="chat__username">
-                Lynn
-              </span>
-              <span class="chat__preview">
-                Going home
-              </span>
+          <a href="chat.html">
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img src="images/iu.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Lynn
+                  </span>
+                  <span class="friend__bottom-text">
+                    Going home
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  March 8
+                </span>
+              </div>
             </div>
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
-          </div>
+          </a>
         </li>
       </ul>
     </main>
@@ -68,6 +75,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
