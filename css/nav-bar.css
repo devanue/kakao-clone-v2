@@ -21,6 +21,18 @@
   position: relative;
 }
 
+@keyframes moving {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav .nav__badge {
   position: absolute;
   top: -7px;
@@ -34,6 +46,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  animation: moving 2s ease-in-out infinite;
 }
 
 @keyframes showNavBar {
