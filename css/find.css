@@ -14,7 +14,7 @@
 
 .find .header-btn__title {
   display: block;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 14px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .find .find__recommended {
-  margin-top: 20px;
+  margin-top: 30px;
   padding-top: 15px;
   border-top: 1px solid #f7f7f7;
 }

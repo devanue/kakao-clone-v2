@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -40,27 +40,41 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">
           Friday, January 11, 2019
         </span>
         <li class="incoming-message message">
-          <img src="images/iu.jpg" class="g-avatar message__avatar" />
+          <img src="images/iu.jpg" class="m-avatar message__avatar" />
           <div class="message__content">
-            <span class="message__author">Best Frind</span>
-            <div class="message__bubble">
+            <span class="message__author">Best Friend</span>
+            <span class="message__bubble">
               Congrats I love you!
-            </div>
-            <span class="message__timestamp"> </span>
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">
+              Thank you see you soon!
+            </span>
           </div>
         </li>
         <li class="incoming-message message">
-          <span class="message__timestamp"> </span>
+          <img src="images/iu.jpg" class="m-avatar message__avatar" />
           <div class="message__content">
-            <div class="message__bubble">
+            <span class="message__author">Best Friend</span>
+            <span class="message__bubble">
+              Congrats I love you!
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">
               Thank you see you soon!
-            </div>
+            </span>
           </div>
         </li>
       </ul>
