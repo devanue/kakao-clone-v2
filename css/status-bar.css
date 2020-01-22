@@ -3,10 +3,11 @@
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  background-color: #fcfcfc;
+  background-color: white;
   top: 0px;
   left: 0px;
   padding: 10px 20px;
+  z-index: 2;
 }
 
 .status-bar .status-bar__column {
