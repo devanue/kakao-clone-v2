@@ -2,8 +2,6 @@
   padding: 0;
 }
 
-
-
 .chats-body .header {
   padding: 0px 20px;
   /* position: fixed;
@@ -118,11 +116,10 @@
 
 .incoming-message .message__bubble {
   border-top-left-radius: 0;
-  background-image: linear-gradient(to right,#ffe259, #ffa751);
+  background-image: linear-gradient(to right, #ffe259, #ffa751);
 }
 
 .sent-message .message__bubble {
   border-top-right-radius: 0;
-  background-image: linear-gradient(to right, #EAECC6, #2BC0E4);
+  background-image: linear-gradient(to right, #eaecc6, #2bc0e4);
 }
-m
